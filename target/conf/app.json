@@ -1,0 +1,17 @@
+{
+    "bridge":{
+        "name":"Go-HomeKit",
+        "pin":"123-65-478"
+    },
+    "platforms":[
+        {
+            "platform":"AqaraPlatform",
+            "sid":[
+                "286c0785b45a"
+            ],
+            "password":[
+                "t7ew6r4y612eml0f"
+            ]
+        }
+    ]
+}
