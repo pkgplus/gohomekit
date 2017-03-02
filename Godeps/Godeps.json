@@ -1,0 +1,185 @@
+{
+	"ImportPath": "github.com/xuebing1110/gohomekit",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/aead/chacha20",
+			"Rev": "7e1038a97ad08a9a16cb88ed7a6778b366ba4d99"
+		},
+		{
+			"ImportPath": "github.com/aead/chacha20/chacha",
+			"Rev": "7e1038a97ad08a9a16cb88ed7a6778b366ba4d99"
+		},
+		{
+			"ImportPath": "github.com/aead/poly1305",
+			"Rev": "687f9e582fd1824d41598e72b5296d51ca9ae465"
+		},
+		{
+			"ImportPath": "github.com/agl/ed25519",
+			"Rev": "5312a61534124124185d41f09206b9fef1d88403"
+		},
+		{
+			"ImportPath": "github.com/agl/ed25519/edwards25519",
+			"Rev": "5312a61534124124185d41f09206b9fef1d88403"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/bingbaba/tool/color",
+			"Rev": "0e54f0f70c7c5ce79c2bc902ec46b7a1b5f02379"
+		},
+		{
+			"ImportPath": "github.com/bingbaba/util/logs",
+			"Rev": "beefd5e0448414abbd92af3802618adec3d752d9"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/accessory",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/characteristic",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/crypto",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/crypto/chacha20poly1305",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/crypto/curve25519",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/crypto/hkdf",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/db",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/event",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap/controller",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap/data",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap/endpoint",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap/http",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/hap/pair",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/log",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/service",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/brutella/hc/util",
+			"Comment": "v0.1.0-43-g124ca1f",
+			"Rev": "124ca1fc039b9289995ebb39b2bd745350694df0"
+		},
+		{
+			"ImportPath": "github.com/gosexy/to",
+			"Rev": "c20e083e31230b84ffa23c5d2fb0bc55f5292681"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "75229eecb7af00b2736e93b779a78429dcb19472"
+		},
+		{
+			"ImportPath": "github.com/oleksandr/bonjour",
+			"Rev": "5dcf00d8b228be86307f952f550f2191d956b9e2"
+		},
+		{
+			"ImportPath": "github.com/tadglines/go-pkgs/crypto/srp",
+			"Rev": "1f86682992f1a784aa7592b2be0ae80f194b2479"
+		},
+		{
+			"ImportPath": "github.com/xuebing1110/gohomekit-aqara",
+			"Rev": "e562cf6163b7379426a6cb9b2e2aa5c09361f815"
+		},
+		{
+			"ImportPath": "github.com/xuebing1110/migateway",
+			"Rev": "07fdb29b45d9b835aee21c9fcf1dffc3d10e168e"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "453249f01cfeb54c3d549ddb75ff152ca243f9d8"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/hkdf",
+			"Rev": "453249f01cfeb54c3d549ddb75ff152ca243f9d8"
+		},
+		{
+			"ImportPath": "golang.org/x/net/bpf",
+			"Rev": "6b27048ae5e6ad1ef927e72e437531493de612fe"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/iana",
+			"Rev": "6b27048ae5e6ad1ef927e72e437531493de612fe"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/netreflect",
+			"Rev": "6b27048ae5e6ad1ef927e72e437531493de612fe"
+		},
+		{
+			"ImportPath": "golang.org/x/net/ipv4",
+			"Rev": "6b27048ae5e6ad1ef927e72e437531493de612fe"
+		},
+		{
+			"ImportPath": "golang.org/x/net/ipv6",
+			"Rev": "6b27048ae5e6ad1ef927e72e437531493de612fe"
+		}
+	]
+}
