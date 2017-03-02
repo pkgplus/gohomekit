@@ -18,7 +18,7 @@ function build_zip()
     go build ../gohomekit.go
     
     echo "zip package ..."
-    if "$GOOS" == "windows";then
+    if [ "$GOOS" == "windows" ];then
         zip "./gohomekit-$version-$GOOS-$GOARCH.zip" ./conf ./gohomekit.exe
         rm -f ./gohomekit.exe
     else
