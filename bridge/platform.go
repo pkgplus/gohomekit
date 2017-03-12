@@ -2,8 +2,15 @@ package bridge
 
 import (
 	"github.com/brutella/hc/accessory"
-	"log"
 )
+
+var (
+	PlatForms = make([]PlatForm, 0)
+)
+
+func AddPlagForm(pf PlatForm) {
+	PlatForms = append(PlatForms, pf)
+}
 
 type PlatForm interface {
 	New(sid, pwd string) PlatForm
@@ -30,7 +37,7 @@ func (this *BasePlatForm) Init() error {
 }
 
 func (this *BasePlatForm) OnError(err error) {
-	log.Printf("Error %v\n", err)
+	LOGGER.Error("Error %v", err)
 }
 
 func (this *BasePlatForm) AddAcc(acc *accessory.Accessory) {
